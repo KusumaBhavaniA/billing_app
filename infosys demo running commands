@@ -1,0 +1,15 @@
+BACKEND 
+
+cd "C:\Users\KUSUMA BHAVANI\OneDrive\Desktop\demo\Infosys-7.0-Internship"
+venv_new\Scripts\activate
+python -m uvicorn app.main:app
+
+http://127.0.0.1:8000
+
+http://127.0.0.1:8000/docs
+
+FRONTEND
+cd "C:\Users\KUSUMA BHAVANI\OneDrive\Desktop\demo\Infosys-7.0-Internship\app"
+python -m http.server 5500
+
+http://127.0.0.1:5500
